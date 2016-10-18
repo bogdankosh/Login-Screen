@@ -253,6 +253,11 @@
                                     <constraint firstAttribute="width" constant="200" id="aIz-DC-6LF"/>
                                     <constraint firstAttribute="width" secondItem="KGt-ue-MUc" secondAttribute="height" multiplier="1:1" id="igJ-Uo-kKk"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="R9u-LX-RFS" appends="YES" id="eUp-1o-FlO"/>
                                 </connections>
